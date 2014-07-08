@@ -1,14 +1,18 @@
 <?php
 /*
-Plugin Name: Restrict Content
+Plugin Name: DM Restrict Content
 Plugin URL: http://pippinsplugins.com/restricted-content-plugin-free/
 Description: Restrict Content to registered users only. This is a simple plugin that will allow you to easily restrict complete posts / pages to logged in users only.
-Version: 2.1
+Version: 2.1.1
 Author: Pippin Williamson
 Author URI: http://pippinsplugins.com
 Contributors: mordauk
 Tags: Restrict content, member only, registered, logged in, restricted access, restrict access, limiit access, read-only, read only
+Text Domain:       DM-restrict-content
+GitHub Plugin URI: https://github.com/DesignMissoula/DM-restrict-content
+GitHub Branch:     gcsaa-groups
 */
+
 
 
 /*******************************************

@@ -18,7 +18,7 @@ $rc_meta_box = array(
             'id' => $prefix . 'UserLevel',
             'type' => 'select',
             'desc' => __('Choose the user level that can see this page / post', 'restrict-content'),
-            'options' => array('None', 'Administrator', 'Editor', 'Author', 'Contributor', 'Subscriber'),
+            'options' => array('None', 'Administrator', 'Editor', 'Author', 'Contributor', 'Subscriber', 'Member'),
             'std' => 'None'
         ),
         array(

@@ -80,7 +80,7 @@ function rcMetaDisplayNone($content)
 	
 	$rcUserLevel = get_post_meta($post->ID, 'rcUserLevel', true);
 
-	if (!current_user_can('read') && ($rcUserLevel == 'Administrator' || $rcUserLevel == 'Editor' || $rcUserLevel == 'Author' || $rcUserLevel == 'Contributor' || $rcUserLevel == 'Subscriber'))
+	if (!current_user_can('read') && ($rcUserLevel == 'Administrator' || $rcUserLevel == 'Editor' || $rcUserLevel == 'Author' || $rcUserLevel == 'Contributor' || $rcUserLevel == 'Subscriber' || $rcUserLevel == 'Member'))
 	{
 		$userLevelMessage = strtolower($rcUserLevel);
 		return do_shortcode( $rc_options[$userLevelMessage . '_message'] );
