@@ -68,6 +68,13 @@ function rc_settings_page()
 						</td>
 					</tr>
 					<tr valign="top">
+						<th><?php _e('Members', 'restrict-content'); ?></th>
+						<td>
+							<input id="rc_settings[member_message]" class="large-text" name="rc_settings[member_message]" type="text" value="<?php echo isset( $rc_options['member_message'] ) ? esc_html( $rc_options['member_message'] ) : '';?>" /><br/>
+							<label class="description" for="rc_settings[contributor_message]"><?php _e( 'Message displayed when a user does not have permission to view Contributor restricted content', 'restrict-content' ); ?></label><br/>
+						</td>
+					</tr>
+					<tr valign="top">
 						<th><?php _e('Subscribers', 'restrict-content'); ?></th>
 						<td>
 							<input id="rc_settings[subscriber_message]" class="large-text" name="rc_settings[subscriber_message]" type="text" value="<?php echo isset( $rc_options['subscriber_message'] ) ? esc_html( $rc_options['subscriber_message'] ) : '';?>" /><br/>
